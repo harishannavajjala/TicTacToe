@@ -1,0 +1,13 @@
+Instructions to Run:-
+
+python nkcohcoh.py <n> <k> .w......b <time>
+
+
+in the above line:
+n - is the size of the board i.e., if n = 3 then the board size is 3*33
+k - for simplicity sake you can take the same value as n. But it can't be greater than n.
+.w......b => This needs to be carefully interpreted. This input is an example for n = 3. Every character in that string  depicts one box
+             in our 3*3 board. "." refers to an empty box , "w" refers to player white, "b" refers to player black. In this example 
+             there is a white player in the first row second position. The second row is completely empty. The third row has a black player 
+             at the last box.
+             
